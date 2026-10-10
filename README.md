@@ -31,10 +31,10 @@ While `<body class="review">` is set, every item below shows a yellow **To confi
 2. ~~**Mission, vision and core values**~~: done. Approved as written (10 Oct 2026).
 3. ~~**Why Mythreyi**~~: done. Approved as written (10 Oct 2026).
 4. ~~**Mythreyi Academy**~~: done. Hidden for now (10 Oct 2026). To show it, delete `hidden` from its `<article class="project project-minor" … hidden>`.
-5. **Business email:** replace "Business email: to confirm" in `#contact` with the real address, as a link:
-   `<a href="mailto:name@mythreyi.com">name@mythreyi.com</a>`. Also put it in privacy.html.
-6. **Social links:** put the real LinkedIn and Facebook addresses in the two links, or delete the
-   `<div class="social review-only">` block.
+5. **Business email:** hidden on the page for now (10 Oct 2026). To show it, un-comment the Email lines in `#contact`
+   and put in the real address. The privacy notice (privacy.html) still needs an address for people's requests.
+6. **Social links:** Facebook page made; put its address in the link. LinkedIn later (add another `<li>`). When ready,
+   remove `review-only` from `<div class="social review-only">` so the block shows.
 7. **Contact form:** connect it (next section).
 8. **Privacy notice:** have it reviewed, fill in the form service's name and how long messages are kept, and the date.
 9. **Logo:** the site uses a vector copy redrawn from the logo image. If you have the original logo file (SVG, AI,
