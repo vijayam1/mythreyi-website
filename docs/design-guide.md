@@ -13,7 +13,7 @@ so that anyone can extend the site without losing its character.
 | `/#services` | Our services: six service cards |
 | `/#why` | Why Mythreyi: four strengths |
 | `/#approach` | Our approach: Discover → Design → Develop → Deliver |
-| `/#projects` | Projects and innovation: Vijayam Classifieds, Mythreyi Academy |
+| `/#projects` | Projects and innovation: Vijayam Classifieds (Mythreyi Academy is ready but hidden for now) |
 | `/#contact` | Contact: form, email, registered office, social links |
 | `/privacy.html` | Privacy notice for the contact form |
 | `/404.html` | "Page not found" |
@@ -35,7 +35,7 @@ and list them in `sitemap.xml`.
 | Our services | "What we can do for you": six services | Approved by the owner (10 Oct 2026) |
 | Why Mythreyi | "Built with care, explained in plain words.": four strengths | Approved by the owner (10 Oct 2026); drawn from how Vijayam is built |
 | Our approach | "Four steps from idea to impact" | Proposed process |
-| Projects | Vijayam Classifieds (live, beta); Mythreyi Academy (in planning) | Vijayam is fact; Academy **to confirm** |
+| Projects | Vijayam Classifieds (live, beta) | Fact. Mythreyi Academy hidden for now (owner, 10 Oct 2026) |
 | Contact | "Let's build something meaningful." | Email, social links **to confirm** |
 
 Rules the content follows: no invented history, people, clients, awards, testimonials, numbers or results. The
