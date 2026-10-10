@@ -35,7 +35,8 @@ While `<body class="review">` is set, every item below shows a yellow **To confi
    and put in the real address. The privacy notice (privacy.html) still needs an address for people's requests.
 6. **Social links:** Facebook page made; put its address in the link. LinkedIn later (add another `<li>`). When ready,
    remove `review-only` from `<div class="social review-only">` so the block shows.
-7. **Contact form:** connect it (next section).
+7. **Contact form:** hidden for now (10 Oct 2026, the site went live without it). Connect Formspree (next section),
+   delete `hidden` from the `<form>`, put the "Tell us about your idea…" sentence back, and bring back the privacy link and sitemap entry.
 8. **Privacy notice:** have it reviewed, fill in the form service's name and how long messages are kept, and the date.
 9. **Logo:** the site uses a vector copy redrawn from the logo image. If you have the original logo file (SVG, AI,
    EPS or a large PNG), use that instead in `assets/img/`.

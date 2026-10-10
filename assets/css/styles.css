@@ -60,6 +60,7 @@ body {
   text-rendering: optimizeLegibility;
 }
 img, svg { display: block; max-width: 100%; }
+[hidden] { display: none !important; }
 h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.15; margin: 0; letter-spacing: -0.015em; color: inherit; text-wrap: balance; }
 .lead, .hero-lead { text-wrap: balance; }
 h2 { font-size: var(--step-3); font-weight: 600; }
@@ -359,6 +360,7 @@ button, input, textarea { font: inherit; }
     var(--navy-900); }
 .contact-grid { display: grid; gap: var(--space-7); align-items: start; }
 @media (min-width: 960px) { .contact-grid { grid-template-columns: 1fr 1fr; gap: var(--space-8); } }
+@media (min-width: 960px) { .contact-grid:has(> .contact-form[hidden]) { grid-template-columns: minmax(0, 720px); } }
 .contact-copy h2 { margin-bottom: var(--space-4); }
 .contact-details { margin: var(--space-6) 0 0; display: grid; gap: var(--space-5); }
 .contact-details dt { font-size: var(--step--1); font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--teal-400); margin-bottom: 4px; }
