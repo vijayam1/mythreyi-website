@@ -32,7 +32,7 @@ and list them in `sitemap.xml`.
 | Hero | "Engineering Technology. Empowering Possibilities." + "Transforming ideas into meaningful digital solutions." | Owner's wording |
 | Facts strip | Registered in Andhra Pradesh, India · Incorporated in 2022 · Products in English and Telugu | Facts (CIN, Vijayam) |
 | About us | "Meaningful technology, carefully built." | Facts; mission, vision and values **to confirm** |
-| Our services | "What we can do for you": six proposed services | **To confirm**: proposed categories, not confirmed offerings |
+| Our services | "What we can do for you": six services | Approved by the owner (10 Oct 2026) |
 | Why Mythreyi | "Built with care, explained in plain words.": four strengths | **To confirm**: drawn from how Vijayam is built |
 | Our approach | "Four steps from idea to impact" | Proposed process |
 | Projects | Vijayam Classifieds (live, beta); Mythreyi Academy (in planning) | Vijayam is fact; Academy **to confirm** |

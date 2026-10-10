@@ -27,7 +27,7 @@ Then open http://localhost:8790. Press Control+C in the Terminal to stop it.
 
 While `<body class="review">` is set, every item below shows a yellow **To confirm** label on the page.
 
-1. **Services:** keep, change or remove each of the six cards (`#services` in index.html).
+1. ~~**Services**~~: done. The owner kept all six (10 Oct 2026).
 2. **Mission, vision and core values:** approve or edit (`#about`).
 3. **Why Mythreyi:** approve the four strengths (`#why`).
 4. **Mythreyi Academy:** keep it in Projects, or delete its `<article class="project project-minor">`.
