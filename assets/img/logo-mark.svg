@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="t">
+  <title id="t">Mythreyi Information Technology</title>
+  <rect x="1" y="1" width="46" height="46" rx="12" fill="#0B1A30" stroke="#2A4266" stroke-width="1.5"/>
+  <polyline points="13,34 13,15 24,27 35,15 35,34" fill="none" stroke="#E2E7EE" stroke-width="3.4"
+            stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="13" cy="15" r="3" fill="#2DD4BF"/>
+  <circle cx="24" cy="27" r="3" fill="#2DD4BF"/>
+  <circle cx="35" cy="15" r="3" fill="#2DD4BF"/>
+</svg>
