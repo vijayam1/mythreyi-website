@@ -57,7 +57,25 @@ Screenshots of the real page are in `docs/screenshots/`:
 
 The content is never wider than 1,200 px, with at least 16 px of space at each side on phones.
 
-## 4. Colour system
+## 4. Logo
+
+The Mythreyi logo is a golden-yellow "M" shaped like two mountain peaks, with a red drop above it. It is used as
+`assets/img/logo.svg`, a vector drawing made from the logo image the owner supplied, so it stays sharp at every size.
+
+| File | Use |
+| --- | --- |
+| `logo.svg` | Header, footer, hero (transparent background) |
+| `logo-512.png` | Google and other services that need a picture file |
+| `favicon.svg` | Browser tab (logo on a navy square, so it shows on light and dark tab bars) |
+| `apple-touch-icon.png` | iPhone home screen (180 px, navy background) |
+
+- **Colours:** yellow #FFC600, red #FF1A1A. They are the logo's own colours; the page's accent stays teal, so
+  the logo stands out on the midnight navy.
+- **Background:** midnight navy or white. Don't place it on yellow, red or busy photos.
+- **Size:** at least 24 px tall on screens; leave space around it of at least a quarter of its height.
+- **Don't** stretch, recolour, outline or rotate it.
+
+## 5. Colour system
 
 | Token | Colour | Used for | Contrast |
 | --- | --- | --- | --- |
@@ -75,7 +93,7 @@ The content is never wider than 1,200 px, with at least 16 px of space at each s
 All text meets WCAG 2.2 AA (4.5 : 1 for body text). Only one accent family (teal) is used for actions, so buttons are
 always easy to spot. Gradients are limited to two soft glows and a faint grid in the hero.
 
-## 5. Typography
+## 6. Typography
 
 No web fonts are downloaded: the page loads fast and no visitor information goes to a font service.
 
@@ -91,7 +109,7 @@ No web fonts are downloaded: the page loads fast and no visitor information goes
 | Body | 17 px |
 | Labels ("eyebrows") | 14 px, capitals, wide spacing |
 
-## 6. Components (reusable)
+## 7. Components (reusable)
 
 All styles are in `assets/css/styles.css`, grouped as tokens, base, layout, components, sections, motion and
 review notes.
@@ -106,7 +124,7 @@ review notes.
   `.review-only` (a block shown only while reviewing). All of them disappear when `class="review"` is removed
   from `<body>`.
 
-## 7. Motion
+## 8. Motion
 
 - Sections fade up gently as they scroll into view. Only sections that start below the screen do this, so nothing
   flickers on load.
@@ -114,7 +132,7 @@ review notes.
 - Buttons and cards lift slightly on hover.
 - When a visitor's device asks for reduced motion, all of this switches off.
 
-## 8. Accessibility (WCAG 2.2 AA target)
+## 9. Accessibility (WCAG 2.2 AA target)
 
 - "Skip to main content" link; header, navigation, main and footer landmarks; one h1, then h2 and h3 in order.
 - Every control works with the keyboard; a clear teal focus ring; Escape closes the phone menu and returns focus
@@ -124,13 +142,13 @@ review notes.
 - Form: visible labels, errors written in words next to each field and announced, focus moves to the first problem.
 - The decorative illustration is hidden from screen readers; the Vijayam screenshot has a written description.
 
-## 9. Search engines and sharing
+## 10. Search engines and sharing
 
 - Title, description and canonical address on every page; `robots.txt`, `sitemap.xml`.
 - Organisation details for Google (legal name, CIN, address, founding year, the Vijayam brand) in JSON-LD.
 - A share image (`assets/img/og-image.png`, 1200 × 630) for WhatsApp, Facebook and LinkedIn previews.
 
-## 10. Security
+## 11. Security
 
 - A Content Security Policy allows only the site's own files (plus the form service, if used): no outside scripts.
 - No inline scripts or styles; external links use `rel="noopener"`.

@@ -10,7 +10,7 @@ privacy.html          privacy notice for the contact form
 404.html              "page not found"
 assets/css/styles.css every style (colours and sizes at the top)
 assets/js/main.js     menu, scroll effects, contact form
-assets/img/           logo, favicon, share image, Vijayam screenshot
+assets/img/           logo (SVG and PNG), favicon, phone icon, share image, Vijayam screenshot
 robots.txt, sitemap.xml, CNAME
 docs/                 design guide and screenshots
 ```
@@ -37,7 +37,9 @@ While `<body class="review">` is set, every item below shows a yellow **To confi
    `<div class="social review-only">` block.
 7. **Contact form:** connect it (next section).
 8. **Privacy notice:** have it reviewed, fill in the form service's name and how long messages are kept, and the date.
-9. When everything is confirmed, change `<body class="review" id="top">` to `<body id="top">` in index.html, and
+9. **Logo:** the site uses a vector copy redrawn from the logo image. If you have the original logo file (SVG, AI,
+   EPS or a large PNG), use that instead in `assets/img/`.
+10. When everything is confirmed, change `<body class="review" id="top">` to `<body id="top">` in index.html, and
    `<body class="review">` to `<body>` in privacy.html. The yellow labels disappear.
 
 ## Connecting the contact form

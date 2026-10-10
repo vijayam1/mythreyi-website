@@ -260,8 +260,6 @@ button, input, textarea { font: inherit; }
 .lattice .nodes-outer circle { fill: var(--navy-900); stroke: var(--silver-400); stroke-width: 1.5; }
 .lattice .nodes-inner circle { fill: var(--teal-400); }
 .lattice .hub-shape { fill: var(--navy-800); stroke: var(--teal-400); stroke-width: 1.6; }
-.lattice .hub-m { fill: none; stroke: var(--silver-200); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
-.lattice .hub-dot { fill: var(--teal-400); }
 
 /* About */
 .about-grid { display: grid; gap: var(--space-6); align-items: start; }
