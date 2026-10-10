@@ -28,8 +28,8 @@ Then open http://localhost:8790. Press Control+C in the Terminal to stop it.
 While `<body class="review">` is set, every item below shows a yellow **To confirm** label on the page.
 
 1. ~~**Services**~~: done. The owner kept all six (10 Oct 2026).
-2. **Mission, vision and core values:** approve or edit (`#about`).
-3. **Why Mythreyi:** approve the four strengths (`#why`).
+2. ~~**Mission, vision and core values**~~: done. Approved as written (10 Oct 2026).
+3. ~~**Why Mythreyi**~~: done. Approved as written (10 Oct 2026).
 4. **Mythreyi Academy:** keep it in Projects, or delete its `<article class="project project-minor">`.
 5. **Business email:** replace "Business email: to confirm" in `#contact` with the real address, as a link:
    `<a href="mailto:name@mythreyi.com">name@mythreyi.com</a>`. Also put it in privacy.html.
