@@ -11,7 +11,7 @@ privacy.html          privacy notice for the contact form
 assets/css/styles.css every style (colours and sizes at the top)
 assets/js/main.js     menu, scroll effects, contact form
 assets/img/           logo (SVG and PNG), favicon, phone icon, share image, Vijayam screenshot
-robots.txt, sitemap.xml, CNAME
+robots.txt, sitemap.xml
 docs/                 design guide and screenshots
 ```
 
@@ -63,7 +63,7 @@ The site is just files, so any web host works. Choose one:
    `mythreyi-website`. Free GitHub Pages needs a **public** repository, so untick "Keep this code private" (the site
    has no secrets; everything in it is shown to visitors anyway).
 2. On github.com, in the repository: **Settings → Pages → Build and deployment → Deploy from a branch → main, / (root)**.
-3. Still in Pages: **Custom domain** = `www.mythreyi.com` → Save. (The `CNAME` file already says this.)
+3. Still in Pages: **Custom domain** = `www.mythreyi.com` → Save. (GitHub adds a `CNAME` file to the project for you.)
 4. In GoDaddy, **My Products → Domains → mythreyi.com → DNS**:
    - First disconnect the old Websites + Marketing site from mythreyi.com (or delete its two "A" records for `@`).
    - Add a **CNAME** record: name `www`, value `vijayam1.github.io` (your GitHub user name + `.github.io`).
