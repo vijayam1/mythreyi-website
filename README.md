@@ -38,8 +38,8 @@ While `<body class="review">` is set, every item below shows a yellow **To confi
 7. **Contact form:** hidden for now (10 Oct 2026, the site went live without it). Connect Formspree (next section),
    delete `hidden` from the `<form>`, put the "Tell us about your idea…" sentence back, and bring back the privacy link and sitemap entry.
 8. **Privacy notice:** have it reviewed, fill in the form service's name and how long messages are kept, and the date.
-9. **Logo:** the site uses a vector copy redrawn from the logo image. If you have the original logo file (SVG, AI,
-   EPS or a large PNG), use that instead in `assets/img/`.
+9. **Logo:** done (10 Oct 2026). The logo files are an exact vector copy measured from the owner's logo image, the
+   same as on Vijayam; see `docs/design-guide.md` section 4.
 10. When everything is confirmed, change `<body class="review" id="top">` to `<body id="top">` in index.html, and
    `<body class="review">` to `<body>` in privacy.html. The yellow labels disappear.
 

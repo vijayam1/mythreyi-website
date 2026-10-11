@@ -60,7 +60,10 @@ The content is never wider than 1,200 px, with at least 16 px of space at each s
 ## 4. Logo
 
 The Mythreyi logo is a golden-yellow "M" shaped like two mountain peaks, with a red drop above it. It is used as
-`assets/img/logo.svg`, a vector drawing made from the logo image the owner supplied, so it stays sharp at every size.
+`assets/img/logo.svg`, a vector drawing measured from the logo image the owner supplied, so it stays sharp at every size.
+The same logo is used by Vijayam and Mythreyi Academy. All the logo files below (and the logo inside the hexagon in
+`index.html` and in the share picture) are made from one shape by the Vijayam project's
+`tools/make_brand_icons.py --mythreyi ~/mythreyi-website`; to change the logo, change it there and run it again.
 
 | File | Use |
 | --- | --- |
@@ -69,7 +72,7 @@ The Mythreyi logo is a golden-yellow "M" shaped like two mountain peaks, with a 
 | `favicon.svg` | Browser tab (logo on a navy square, so it shows on light and dark tab bars) |
 | `apple-touch-icon.png` | iPhone home screen (180 px, navy background) |
 
-- **Colours:** yellow #FFC600, red #FF1A1A. They are the logo's own colours; the page's accent stays teal, so
+- **Colours:** gold #FFC700, red #FF1717 (the same in all three brands). They are the logo's own colours; the page's accent stays teal, so
   the logo stands out on the midnight navy.
 - **Background:** midnight navy or white. Don't place it on yellow, red or busy photos.
 - **Size:** at least 24 px tall on screens; leave space around it of at least a quarter of its height.
